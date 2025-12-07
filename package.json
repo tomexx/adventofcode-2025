@@ -3,6 +3,10 @@
   "module": "index.ts",
   "type": "module",
   "private": true,
+  "scripts": {
+    "format": "biome format --write .",
+    "lint": "biome check ."
+  },
   "devDependencies": {
     "@types/bun": "latest",
     "@biomejs/biome": "latest"
