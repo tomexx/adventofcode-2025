@@ -6,6 +6,9 @@
   "scripts": {
     "start": "bun run index.ts",
     "start:01": "bun 01/index.ts",
+    "test": "bun test",
+    "test:watch": "bun test --watch",
+    "test:coverage": "bun test --coverage",
     "format": "biome format --write .",
     "lint": "biome check ."
   },

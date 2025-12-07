@@ -1,2 +1,2 @@
 // Import all solutions
-import "./01/index.ts"
+import "./days/01/index.ts"
