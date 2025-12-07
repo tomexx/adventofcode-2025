@@ -4,8 +4,8 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "run": "bun run index.ts",
-    "run:01": "bun 01/index.ts",
+    "start": "bun run index.ts",
+    "start:01": "bun 01/index.ts",
     "format": "biome format --write .",
     "lint": "biome check ."
   },

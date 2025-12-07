@@ -2,6 +2,8 @@ const input = Bun.file(`${import.meta.dir}/input.txt`)
 const text = await input.text()
 const turns = text.split("\n")
 
+console.log("--- Day 01 ---")
+
 type DialState = {
   position: number
 }
