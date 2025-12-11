@@ -40,6 +40,15 @@ describe("Day 02", () => {
 
       input = "38593856-38593862"
       expect(getInvalidIDsFromRange(input)).toEqual([38593859])
+
+      input = "565653-565659"
+      expect(getInvalidIDsFromRange(input)).toEqual([])
+
+      input = "824824821-824824827"
+      expect(getInvalidIDsFromRange(input)).toEqual([])
+
+      input = "2121212118-2121212124"
+      expect(getInvalidIDsFromRange(input)).toEqual([])
     })
   })
 })
