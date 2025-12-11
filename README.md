@@ -1,7 +1,6 @@
 # Advent of Code 2025
 
-Link to the challenges: https://adventofcode.com/
-
+Link to the challenges: <https://adventofcode.com/>
 
 To install dependencies:
 
