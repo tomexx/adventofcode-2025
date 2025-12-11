@@ -1,4 +1,7 @@
-# adventofcode-2025
+# Advent of Code 2025
+
+Link to the challenges: https://adventofcode.com/
+
 
 To install dependencies:
 
@@ -6,10 +9,14 @@ To install dependencies:
 bun install
 ```
 
-To run:
+To get results for each day
 
 ```bash
-bun run index.ts
+bun start
 ```
 
-This project was created using `bun init` in bun v1.3.3. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
+To run tests
+
+```bash
+bun test
+```
